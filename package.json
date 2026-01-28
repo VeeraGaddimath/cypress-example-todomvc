@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "test:e2e": "cypress run",
+    "test:e2e:headed": "cypress run --headed",
+    "test:e2e:advanced": "cypress run --spec 'cypress/e2e/2-advanced-examples/*.spec.ts'",
+    "test:open": "cypress open"
+  },
   "devDependencies": {
     "@types/cypress": "^0.1.6",
     "cypress": "^15.9.0",
