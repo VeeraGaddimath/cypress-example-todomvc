@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main, master ]
   schedule:
-    - cron: '0 2 * * *'  # Run daily at 2 AM UTC
+    - cron: '45 14 * * *'  # Run daily at 8:15 PM IST (14:45 UTC)
 
 jobs:
   cypress-run:
