@@ -7,7 +7,6 @@ cypress/downloads/
 node_modules/
 
 # Dependencies
-package-lock.json
 yarn.lock
 
 # Environment variables
